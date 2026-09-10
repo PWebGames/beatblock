@@ -1,7 +1,7 @@
 {
   "name": "Beatblock",
   "short_name": "Beatblock",
-  "start_url": "./",
+  "start_url": "https://8v5xjlg26p.netlify.app/index.html",
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#121212",

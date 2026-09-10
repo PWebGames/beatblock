@@ -14,7 +14,7 @@
     <meta http-equiv="Expires" content="0" />
     <title>löve.js</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="https://8v5xjlg26p.netlify.app/manifest.json">
   </head>
   <body>
     <canvas id="canvas"></canvas>
@@ -41,7 +41,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('https://8v5xjlg26p.netlify.app/sw.js')
             .then(reg => console.log('Service Worker registered!', reg))
             .catch(err => console.error('Registration failed:', err));
         });
